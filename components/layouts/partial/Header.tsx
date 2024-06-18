@@ -17,10 +17,10 @@ import ToggleTheme from "@/components/elements/ToggleTheme";
 import Link from "next/link";
 
 const user = {
-  name: "Jane Spoonfighter",
-  email: "janspoon@fighter.dev",
+  name: "Keimal Reyyan",
+  email: "reyyankeimal1@gmail.com",
   image:
-    "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-5.png",
+    "https://res.cloudinary.com/keimaaal/image/upload/f_auto,q_auto/v1717943192/v1/keimaal/profile",
 };
 
 export function HeaderTabs() {
