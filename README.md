@@ -1,36 +1,79 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# CRUD Application with Next.js
+
+This repository contains a CRUD (Create, Read, Update, Delete) application built using Next.js with TypeScript, Redux for state management, and Mantine for the user interface. The application demonstrates best practices for building scalable and maintainable web applications.
+
+## Tech Stack
+
+- **Next.js**: A React framework for server-side rendering, static site generation, and more.
+- **TypeScript**: Enhances JavaScript with static types, improving developer experience and code quality.
+- **Redux**: A predictable state container for managing application state.
+- **Mantine**: A modern, fully-featured UI library for React with customizable components.
+- **Framer Motion**: A production-ready motion library for React for creating animations.
+- **Next Themes**: An easy way to implement dark mode and theme toggling in Next.js applications.
+- **SweetAlert2**: A beautiful and responsive replacement for JavaScript's popup boxes.
+- **React Icons**: Popular icons in your React projects using react-icons library.
+
+
+## API Preferences
+
+https://gorest.co.in/
+
+
+## Demo
+
+https://keimalcase-crud.vercel.app
 
 ## Getting Started
 
-First, run the development server:
+Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-```bash
+### Prerequisites
+
+Make sure you have the following software installed on your system:
+
+- [Node.js](https://nodejs.org/en/) (v14 or later)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+
+### Installation
+
+1. Clone the repository:
+```sh
+git clone https://github.com/KeiRey/keimalcase-crud-nextjs.git
+cd keimalcase-crud-nextjs
+```
+
+2. Install the dependencies:
+```sh
+npm install
+# or
+yarn install
+```
+
+3. Running the Development Server:
+```sh
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+4. To deploy this project run
+```bash
+npm run build
+# or
+yarn build
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Features
 
-## Learn More
+- Light/dark mode toggle
+- Clean Code
+- Easy build
+- Interactive UI
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Authors
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+- [@keirey](https://www.github.com/keirey)
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
